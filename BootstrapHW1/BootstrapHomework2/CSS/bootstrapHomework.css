@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/*CSS Document*/
+
+
+html  {
+    font-family: 'Lato', sans-serif;
+
+}
+
+body {
+    background-color: rgba(250,249,246, 1.00);
+}
+.navbar {
+    background-color: rgba(104,104,104, 1.00)!important;
+}
+.nav-bar-color {
+    background-color: rgba(104,104,104, 1.00)!important;
+}
+
+
+.nav-link{
+    color: rgba(250,249,246, 1.00) !important;
+}
+
+.nav-link:hover{
+    color: #FF6600 !important;
+}
+
+.nav-highlight, .navbar-brand {
+    color: rgba(250,249,246, 1.00) ;
+    font-weight: bolder ;
+}
+
+
+h1 {
+    font-size: 1.802em;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.602em;
+    font-weight: 700;
+}
+
+.footer-cy {
+    text-align: center;
+}
+
+
+.btn-primary {
+    background-color: slategrey;
+    border-color: slategrey;
+}
+
+.btn-primary:hover {
+    background-color: darkblue;
+    border-color: darkblue;
+}
+
+h4 {
+font-size: 1.266em;
+}
+
+h3{
+    font-size: 1.424em;
+    font-weight: 700;
+}
+
+.card-base {
+    text-align: center !important;
+}
+
+.carousel-padding {
+    padding-left: 125px !important;
+    padding-right: 125px !important;
+
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon, .carousel-control-prev, .carousel-control-next{
+   background-color: #FF6600 !important;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+
+}

@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rose Bootstrap Homework</title>
+
+<!--    CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/BootstrapHomework2/CSS/bootstrapHomework.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg nav-bar-color sticky-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Rose Broccolo</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active nav-highlight" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Research/research1.html">Research</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown link
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container-lg mt-3">
+    <div class = "row"> <!-- open row-->
+        <div class="col-1">
+        </div>
+        <div class="col-10">
+            <h1>A long time ago, in a galaxy far, far away...</h1>
+            <h2>It is a period of civil war.</h2>
+            <p>Rebel spaceships, striking from a hidden base, have won their first victory against
+                the evil Galactic Empire. During the battle, Rebel spies managed to steal secret
+                plans to the Empire's ultimate weapon, the DEATH STAR, an armored space
+                station with enough power to destroy an entire planet.</p>
+        </div>
+        <div class="col-1">
+        </div>
+ </div><!--    close row-->
+
+    <div class="row"> <!-- open row-->
+        <div class="col-lg-4 col-md-12 py-2">
+            <div class="card shadow h-100">
+                <img src="img/babyyoda.jpg" class="card-img-top" alt="Baby Yoda">
+                <div class="card-body">
+                    <h3 class="card-title">Han Solo</h3>
+                    <p class="card-text">Echo Three to Echo Seven. Han, old buddy, do you read me? Loud and clear, kid.
+                        What's up? Well, I finished my circle. I don't pick up any life readings.
+                        She's been trying to get you on the communicator. I turned it off. I don't want to talk to her.
+                        Oh. Well, Princess Leia is wondering about Master Luke. He hasn't come back yet.</p>
+                    <hr/>
+                    <div class="card-base">
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div> <!--    close card base-->
+                </div> <!--    close card body -->
+            </div> <!--    close card -->
+        </div> <!--    close column -->
+
+        <div class="col-lg-4 col-md-12 py-2">
+            <div class="card shadow h-100">
+                <img src="img/legostormtrooper2.jpg" class="card-img-top" alt="Stormtrooper">
+                <div class="card-body">
+                    <h3 class="card-title">Lando Calrissian</h3>
+                    <p class="card-text">No problem. Why? So you see, since we're a small operation, we don't fall
+                        into the...uh...jurisdiction of the Empire. So you're part of the mining guild then? No,
+                        not actually. Our operation is small enough not to be noticed...which is advantageous for
+                        everybody since our customers are anxious to avoid attracting attention to themselves.</p>
+                    <hr>
+                    <div class="card-base">
+                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#IsabelleRun">Open Modal</a>
+                        <!-- <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#IsabelleRun">Open Modal</a>-->
+                    </div> <!--    close card base-->
+                </div> <!--    close card body -->
+            </div><!--    close card -->
+        </div> <!--    close column -->
+
+        <!--    open modal-->
+        <div class="modal fade" id="IsabelleRun" tabindex="-1" aria-labelledby="IsabelleRunLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="IsabelleRunLabel">Modal title</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <video controls width="320" height="240" autoplay loop>
+                            <source src= "img/starsvideo.mp4" type="video/mp4"/>
+                        </video>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal" aria-label="Close">Close Modal</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- close modal-->
+
+
+        <div class="col-lg-4 col-md-12 py-2">
+            <div class="card shadow h-100">
+                <img src="img/BB8.jpg" class="card-img-top" alt="BB8">
+                <div class="card-body">
+                    <h3 class="card-title">Luke Skywalker</h3>
+                    <p class="card-text">We're not going to regroup with the others. We're going to the Dagobah system.
+                        Yes, Artoo? That's all right. I'd like to keep it on manual control for a while.
+                        Who'd have thought that, huh? You know, seeing you sure brings back a few things. Yeah.
+                        Yeah, I'm responsible these days. It's the price you pay for being successful.
+                    </p>
+                    <hr/>
+                    <div class="card-base">
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div><!--    close card-base-->
+                </div><!--    close card body -->
+            </div> <!--    close card -->
+        </div><!--    close column -->
+    </div><!--    close row-->
+
+
+</div> <!--    close container-->
+<footer class="footer-cy mt-5 py-3 px-3 border-top border-dark border-0.3">
+    copyright Rose Broccolo | <strong> Last updated September 2023</strong> | email = rbroccol at depaul dot edu
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
+
+

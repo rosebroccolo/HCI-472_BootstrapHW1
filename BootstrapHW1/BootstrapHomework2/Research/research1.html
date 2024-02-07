@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rose Bootstrap Homework</title>
+
+    <!--    CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/BootstrapHomework2/CSS/bootstrapHomework.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg nav-bar-color sticky-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">Rose Broccolo</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item active nav-highlight">
+                    <a class="nav-link" href="#">Research</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown link
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container-lg mt-3">
+    <div class = "row"> <!-- open row-->
+        <div class="col-1">
+        </div>
+        <div class="col-10">
+            <h1>A long time ago, in a galaxy far, far away...</h1>
+            <h2>It is a period of civil war.</h2>
+            <p>Rebel spaceships, striking from a hidden base, have won their first victory against
+                the evil Galactic Empire. During the battle, Rebel spies managed to steal secret
+                plans to the Empire's ultimate weapon, the DEATH STAR, an armored space
+                station with enough power to destroy an entire planet.</p>
+        </div>
+        <div class="col-1">
+        </div>
+    </div><!--    close row-->
+<div class="row">
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+               <div class="row carousel-padding">
+                   <div class="col-3"><img src="../img/bobafett.jpg" class="d-block w-100" alt="Boba Fett">
+                   </div>
+                   <div class="col-9"><p>In a flashback, Fett plans to break into Jabba the Hutt’s palace to take his
+                       ship back. While he is contemplating a plan he discovers Fennec Shand dying from a gut wound.
+                       He successfully manages to get her healed, and requests her to help him break into Hutt’s
+                       palace, where she reveals that Bib Fortuna has taken over. They manage to take back Fett’s ship.
+                       Fett releases Shand from his service, but she still chooses to continue working with him. Later,
+                       Fett shoots down the biker gang who killed the Tuskens and attempts to retrieve his armor from
+                       the Saarlac pit, but is unsuccessful.
+                   </p></div>
+               </div><!--    close row carousel-padding-->
+            </div><!--    close carousel item-active-->
+            <div class="carousel-item">
+                <div class="row carousel-padding">
+                    <div class="col-3"><img src="../img/mandalorian.jpg" class="d-block w-100" alt="Mandalorian">
+                    </div>
+                    <div class="col-9"><p>The Mandalorian arrives with Grogu on Tython, and finds the ancient
+                        temple on top of a mountain. He seats Grogu at the center so that he may choose his path.
+                        Grogu meditates, and a protective Force field appears around him. Boba Fett arrives with the
+                        mercenary Fennec Shand, whose life he saved on Tatooine, and demands the return of his
+                        Mandalorian armor.[a] Following a tense confrontation, the Mandalorian agrees to trade the
+                        armor for the safety of Grogu. Two Imperial troop carriers arrive, disgorging stormtroopers
+                        who attempt to capture Grogu. Honoring their agreement, Fett, Shand, and the Mandalorian join
+                        forces to harry the advancing stormtroopers, inflicting heavy casualties.
+                    </p></div>
+                </div><!--    close row carousel-padding-->
+            </div><!--    close row carousel-item-->
+
+            <div class="carousel-item">
+                <div class="row carousel-padding">
+                    <div class="col-3"><img src="../img/ahsoka-tano-starwars-fan-art-dy.jpg" class="d-block w-100" alt="Ahsoka Tano">
+                    </div>
+                    <div class="col-9"><p>Wren recovers and informs Ahsoka of her findings, and also traces the
+                        droids that attacked her to Elsbeth’s factories on Corellia. Seeking the star map, Ahsoka and
+                        Syndulla travel to the Corellian shipyards in time to see a massive hyperdrive built for
+                        Elsbeth’s ship to travel to Thrawn’s location in Peridea, a neighbouring galaxy. The transport
+                        carrying the hyperdrive escapes, but not before Chopper attaches a tracking device. After
+                        arresting the shipyard workers as spies for the Empire, Ahsoka is contacted by Wren who is
+                        ready to become her Padawan again and find Bridger. Elsbeth is contacted by Skoll, Hati, and
+                        Marrok who obtained the hyperdrive so they can finish building her ship, the Eye of Sion, and
+                        find Admiral Thrawn.
+                    </p></div>
+                </div><!--    close row carousel-padding-->
+            </div><!--    close row carousel-item-->
+        </div><!--    close carousel-inner-->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div><!--    close carousel-->
+</div><!--    close row-->
+
+
+</div> <!--    close container-->
+<footer class="footer-cy mt-5 py-3 px-3 border-top border-dark border-0.3">
+    copyright Rose Broccolo | <strong> Last updated September 2023</strong> | email = rbroccol at depaul dot edu
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+

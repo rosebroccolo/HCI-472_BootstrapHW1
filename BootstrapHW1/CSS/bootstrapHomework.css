@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/*CSS Document*/
+
+
+html body {
+    font-family: 'Lato', sans-serif;
+    background-color: rgba(320, 210, 300, 1.00);
+}
+
+
+.nav-bar-color {
+    background-color: rgba(600,0,500, 1.00);
+}
+
+
+.nav-link{
+    color: rgba(00, 00, 98, 1.00) !important;
+}
+
+.nav-link:hover{
+    color: rgba(255,255,255, 1.00) !important;
+}
+
+.nav-highlight, .navbar-brand{
+    color: rgba(00,00,20, 1.00) !important;
+    font-weight: bolder !important;
+}
+
+/*did not need to change navbar toggler - already dark*/
+
+h1 {
+    font-size: 1.802em;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.602em;
+    font-weight: 700;
+}
+
+.footer-cy {
+    text-align: center;
+}

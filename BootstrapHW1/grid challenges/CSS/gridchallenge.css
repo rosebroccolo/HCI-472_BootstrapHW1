@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/*CSS Document*/
+.container-lg {
+
+}
+
+.blue-col {
+    background-color: deepskyblue;
+}
+
+.grey-col {
+    background-color: lightgrey;
+}
+
+.purple-col {
+    background-color: mediumpurple;
+}
+
+.pink-col {
+    background-color: pink;
+}
+.orange-col {
+    background-color: orange;
+}
+.yellow-col {
+    background-color: lightgoldenrodyellow;
+}
+
+.green-col {
+    background-color: green;
+}
+.navy-col {
+    background-color: navy;
+}
+.gold-col {
+    background-color: gold;
+}
